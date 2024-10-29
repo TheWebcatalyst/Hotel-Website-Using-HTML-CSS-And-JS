@@ -62,9 +62,9 @@ navLinks.addEventListener("click", () => {
     interval: 500,
   });
 
-   // service container
-  // ScrollReveal().reveal(".service__list li", {
-  //   ...scrollRevealOption,
-  //   interval: 500,
-  //   origin: "right",
-  // });
+  //service container
+  ScrollReveal().reveal(".service__list li", {
+    ...scrollRevealOption,
+    interval: 500,
+    origin: "right",
+  });
